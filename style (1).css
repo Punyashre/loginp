@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    color:rgb(255, 0, 0);
+    padding: 20px; 
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 30px;
+grid-row-gap: 30px;
+}
+.item img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.item  h4{
+    color: chartreuse;
+    text-align: center;
+}
+.item button{
+    padding: 0px 30px;
+    outline: auto;
+    color: rgb(17, 16, 16);
+    background-color: blue;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    margin: auto;
+}
+
+body {
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(243, 242, 245);
+}
